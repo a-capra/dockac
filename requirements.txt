@@ -1,9 +1,7 @@
 uproot==4.3.4
 awkward==1.8.0
 scipy==1.8.1
-lz4==4.0.2
-matplotlib==3.4.3
-pandas==1.4.3
+lz4
 scikit-learn==1.1.2
 numba==0.55.1
 iminuit==2.15.2

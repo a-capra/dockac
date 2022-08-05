@@ -9,8 +9,8 @@ COPY packages ./
 
 RUN dnf update -y \
  && dnf install -y $(cat packages) \
- && rm /packages
+ && rm ./packages
 
 COPY requirements.txt ./
-RUN python3 -m pip install --no-cache-dir -r requirements.txt\
- && rm /requirements.txt
+RUN python3 -m pip install --no-cache-dir -r requirements.txt --user\
+ && rm ./requirements.txt

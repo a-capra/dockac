@@ -36,6 +36,7 @@ python3-jupyter-core
 python3-metakernel
 python3-notebook
 python3-numpy
+python3-matplotlib
 python3-root
 readline-devel
 redhat-lsb-core
